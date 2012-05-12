@@ -1,0 +1,58 @@
+Highlights
+--------------------------------------------------------------------------------
+- High resolution thumbnails
+- Replaced larger font option with 5 different font sizes
+
+4.1.0 Change Log
+--------------------------------------------------------------------------------
+- Simplified the inline image previews & fixed a bug which caused long posts 
+  to just display a black screen
+- Fixed a bug which caused long posts to not render full screen versions
+- Fixed interaction behaviour on the main page. If a preview was open (text/image)
+  and a web post was clicked, any open previews are then closed
+- Fixed a small bug that could trigger a fc when the imagemanager returns null
+- Image manager now supports multiple requests simultanously, this prevents any 
+  deadlock situations
+- When link posts and gif posts are clicked, the current open post index is reset
+- Remove max file size
+- Image chunk download size increased, should speed up download speeds dramatically
+- High resolution thumbnails
+- Livememe blacklisted from inline previous due to strange redirects and
+  non-predictable behaviour (also breaks RES)
+- Fixed the line wrapping bug - http://www.reddit.com/r/redditsync/comments/stfz8
+- Better performance for inline text views (no longer flicker when page is refreshed)
+- Simplified row structure
+- Fixed a bug where the webview was incorrectly styled in night mode
+- Fixed a bug which could cause the subreddit title list to display the incorrect
+  background color following theme changes
+- Full screen image views now close when tapped (single tap only)
+- Fixed this bug: http://www.reddit.com/r/redditsync/comments/tbk3v/
+- Separated image requests into two queues, high res / thumbnail (big change!)
+- Inline web pages previewed can now be opened in an external browser or shared 
+- Webview cleared when pop up browser closed
+- Clickable thumbs for gif posts
+- Added /r/reddisync to the list of default subreddits
+- Ontouch colors added for subreddit view
+- Replaced larger font option with 5 different font sizes
+
+
+Still todo
+------------------------------------------
+
+Next release:
+- image missing picture
+- reddit link handling
+- search comments
+- flair
+- spoilers
+- priority quque on image request
+- parse stange urls encoded with html equivs in (like youtube link)
+- investigate using ids on the item click listenersoo
+- Add a "If you like this app, please rate it" link ( to your Android Market's description ) 
+  in your app -> you will get more 5 stars
+- sync comments
+- twitter in an browser
+- best of reddit etc
+- hide all nsfw links
+- nsfw thumbnails
+- gif popup menus
